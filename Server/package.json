@@ -4,11 +4,11 @@
   "description": "stack-overflow-clone",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "start": "nodemon index.js",
-    "server": "node index.js",
-    "build": "npm install"
-  },
+ "scripts": {
+  "start": "node index.js",
+  "server": "node index.js",
+  "build": "npm install"
+},
   "author": "shaurya",
   "license": "ISC",
   "dependencies": {
