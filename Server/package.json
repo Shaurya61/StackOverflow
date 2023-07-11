@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "nodemon index.js",
-    "server": "node index.js"
+    "server": "node index.js",
+    "build": "npm install"
   },
   "author": "shaurya",
   "license": "ISC",
