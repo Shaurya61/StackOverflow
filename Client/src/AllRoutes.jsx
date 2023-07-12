@@ -12,11 +12,6 @@ import Success from './pages/Plans/Success'
 import Failure from './pages/Plans/Failure'
 import StripeForm from './pages/Payment/StripeForm'
 
-import SMHome from './pages/SocialMedia/Home/SMHome'
-import SMUsers from './pages/SocialMedia/User/SMUsers'
-import EditProfile from './pages/SocialMedia/User/EditProfile'
-import Profile from './pages/SocialMedia/User/Profile'
-
 const AllRoutes = () => {
   return (
     <Routes>
