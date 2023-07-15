@@ -61,7 +61,7 @@ export default function CheckoutForm() {
       elements,
       confirmParams: {
         // Make sure to change this to your payment completion page
-        return_url: "https://stackoverflow-stripe.onrender.com/Success"
+        return_url: "https://taupe-druid-e926ca.netlify.app//Success"
       },
     });
 
