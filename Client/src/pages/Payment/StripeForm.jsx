@@ -5,7 +5,7 @@ import "./StripeForm.css";
 import CheckoutForm from "./CheckoutForm";
 import {useSelector} from 'react-redux'
 
-const stripePromise = loadStripe("pk_test_51NLU58SFJ48w6tVZeHsVQQQKV7D2wMFAwCAjrpRDAIJXDXwhHwgE830gqO8XzO9i84UJ3irnpj0BEWLyRNPBmLvt00nddS51oe");
+const stripePromise = loadStripe(process.env.STRIPE_KEY);
 
 const StripeForm = (props) => {
     const [clientSecret, setClientSecret] = useState("");
